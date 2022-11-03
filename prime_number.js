@@ -1,4 +1,4 @@
-function PrimeNumber(Number){
+function PrimeNumbers(Number){
     let Factors=0;
     for(i=2;i<=Number*(1/2);i++){
         if(Number%i==0){
@@ -13,7 +13,7 @@ function PrimeNumber(Number){
     }
 }
 let userInput=3274
-let answer=PrimeNumber(userInput);
+let answer=PrimeNumbers(userInput);
 if(answer==true){
     console.log(Number,"is Prime number");
 }else{

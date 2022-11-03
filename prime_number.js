@@ -6,7 +6,7 @@ function PrimeNumbers(Number){
             break;
         }
     }
-    if(Factors==0){
+    if(Factors==0)
         return true;
     }else{
         return false;
